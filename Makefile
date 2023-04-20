@@ -1,7 +1,11 @@
 COMPOSE_FILE := ./srcs/docker-compose.yml
+DB_DIR := /home/aqadil/data/mysql
+WORDPRESS_DIR := /home/aqadil/data/wordpress
 
 # Start all containers
 all:
+	if [ ! -d $(DB_DIR) ]; then mkdir -p $(DB_DIR); fi
+	if [ ! -d $(WORDPRESS_DIR) ]; then mkdir -p $(WORDPRESS_DIR); fi
 	@docker compose -f $(COMPOSE_FILE) up -d --build
 
 # Stop and remove all containers
