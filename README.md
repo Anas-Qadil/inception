@@ -54,8 +54,10 @@ To make things simpler, you have to configure your domain name so it points to y
 7. Stop and remove all containers, images, volumes, and networks when you're done with the project by running the following command:
   ```make clean```
 
+## Contributing
+ 
+If you would like to contribute to this project, please fork the repository and make your changes. Then, submit a pull request with your changes. Thank you for your contributions!
 
-## Other Notes
-
-- The latest tag is prohibited
-
+## License
+  
+ This project is licensed under the MIT License. 
