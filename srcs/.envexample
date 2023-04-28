@@ -1,0 +1,7 @@
+DOMAIN_NAME=domainname
+MYSQL_HOSTNAME=Hostname
+MYSQL_DATABASE=db_name
+MYSQL_USER=user
+MYSQL_PASSWORD=password
+MYSQL_ROOT_PASSWORD=root_password
+
