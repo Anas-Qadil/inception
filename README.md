@@ -1,4 +1,4 @@
-#Docker Compose Infrastructure with NGINX, WordPress, and MariaDB
+# Docker Compose Infrastructure with NGINX, WordPress, and MariaDB
 
 # Project Requirements
 
