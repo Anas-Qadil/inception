@@ -42,6 +42,14 @@ The following services must be set up:
 
 To make things simpler, you have to configure your domain name so it points to your local IP address. This domain name must be login.42.fr. Again, you have to use your own login. For example, if your login is wil, wil.42.fr will redirect to the IP address pointing to wil's website.
 
+## Installation
+
+1. Clone the repository:
+2.
+```
+git clone https://github.com/Anas-Qadil/inception.git
+```
+
 ## Other Notes
 
 - The latest tag is prohibited
