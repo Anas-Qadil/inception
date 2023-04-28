@@ -45,10 +45,15 @@ To make things simpler, you have to configure your domain name so it points to y
 ## Installation
 
 1. Clone the repository:
-2.
-```
-git clone https://github.com/Anas-Qadil/inception.git
-```
+  ```git clone https://github.com/Anas-Qadil/inception.git```
+3. cd inception
+4. Install Docker and Docker Compose if you haven't already.
+5. Build the Docker images and start the containers by running the following command:
+  ```make```
+6. Access the WordPress site by visiting https://<your-domain>/ in your web browser. Replace <your-domain> with your domain name (e.g., https://login.42.fr/).
+7. Stop and remove all containers, images, volumes, and networks when you're done with the project by running the following command:
+  ```make clean```
+
 
 ## Other Notes
 
